@@ -29,8 +29,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
        appBar: BasicAppbar(
         hideBack: true,
+
         action: IconButton(
           onPressed: () {
             Navigator.push(
